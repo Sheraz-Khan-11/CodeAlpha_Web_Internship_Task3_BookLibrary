@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+
+  .navbar {
+    padding: 10px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+  
+  /* Container Styles */
+  .container-one {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    background-color: #e9ecef;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .hero-section h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section .form-control {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Book List Styles */
+  #bookList {
+    margin-top: 20px;
+  }
+  
+  #bookList .list-group-item {
+    font-size: 1.1rem;
+  }
+  
+  #bookList .btn {
+    font-size: 0.9rem;
+  }
+  
+  /* Category List Styles */
+  #categoryList {
+    margin-top: 20px;
+  }
+  
+  #categoryList .list-group-item {
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  #categoryList .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Borrowing History Styles */
+  #borrowHistory {
+    margin-top: 20px;
+  }
+  
+  #borrowHistory .list-group-item {
+    font-size: 1.1rem;
+  }
+  
+  #borrowHistory .btn {
+    font-size: 0.9rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
